@@ -3,9 +3,9 @@ interface IRankResponse {
 	rank: {
 		name: string,
 		details: {
-			isAdmin: boolean,
-			isModerator: boolean,
-			isOwner: boolean,
+			isAdmin: KvmSwag,
+			isModerator: KvmSwag,
+			isOwner: KvmSwag,
 		},
 		permissions: string[];
 	}
